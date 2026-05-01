@@ -10,14 +10,10 @@ const Navbar = ({ children }: { children: React.ReactNode }) => {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>
-                <Link href="/blog"> Home</Link>
-              </a>
+              <Link href="/blog"> Home</Link>
             </li>
             <li>
-              <a>
-                <Link href="/create">Create New Blog</Link>
-              </a>
+              <Link href="/create">Create New Blog</Link>
             </li>
           </ul>
         </div>
